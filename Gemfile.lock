@@ -21,6 +21,7 @@ PLATFORMS
 
 DEPENDENCIES
   rspec
+  rspec-expectations
 
 BUNDLED WITH
    2.1.4
