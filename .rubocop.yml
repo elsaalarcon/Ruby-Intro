@@ -1,0 +1,26 @@
+require: rubocop
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7.2
+  Exclude:
+    - lib/email_validator.rb
+    - 'spec/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'Guardfile'
+    - 'bin/*'
+    - 'db/**/*'
+    - 'vendor/bundle/**/*'
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+  Exclude:
+    - 'app/channels/application_cable/channel.rb'
+    - 'app/channels/application_cable/connection.rb'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 180
