@@ -6,7 +6,3 @@ describe 'retun 10 if is true' do
     expect(sum).to eq 10
   end
 end
-  
-
- 
- 
