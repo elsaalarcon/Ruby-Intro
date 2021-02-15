@@ -1,4 +1,3 @@
 def animals
-  ["cat", "dog", "wolf"]
+  ['cat', 'dog', 'wolf']
 end
-  
