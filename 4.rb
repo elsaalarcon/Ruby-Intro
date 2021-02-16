@@ -8,6 +8,7 @@ my_hash = {
   years_experience: 5
 }
 
+#This is the same as console.log in javascript
 puts my_hash[:name]
 puts my_hash[:hobbies]
 puts my_hash[:years_experience]
@@ -90,16 +91,22 @@ nested_hash = {
 
 puts nested_hash[:first_student][:name]
 
-# Write a method, which given two arrays, one of student names, one of student languages, returns a hash like this:
+# Write a method, with two arrays, 
+# first array student names, 
+# second array student languages, 
+# returns a hash like this:
 
 # your_hash = {
 #   "mark" => "ruby",
 #   "aaron" => 'javascript'
 # }
 
-# If the two arrays are not the same length, return false. Write a test using assert_equal!!!
-# write a test for happy path - input is normal and returns the expected return value
-# and for sad path - input has mismatched arrays. Google happy path sad path testing
+# return false If the two arrays are not the same length,
+# Write a test using assert_equal!!!
+# write a test for happy path.
+# input is normal and returns the expected return value
+# sad path - input has mismatched arrays. 
+# Google happy path sad path testing
 
 
 # Write a method which takes a hash in the format as this:
