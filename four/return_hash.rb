@@ -1,8 +1,10 @@
-def student_languages
-    students = ['Mark', 'Aaron', 'Phil']
-    languages = ['Ruby', 'Javascript', 'Pyton']
-    combined_hash = Hash[students.zip(languages)]
-    combined_hash.first(2).to_h     
+def student_languages(students,languages)
+  if (students.length == languages.length)
+  combined_hash = Hash[students.zip(languages)]
+  combined_hash.first(2).to_h 
+  else
+    false
+  end    
 end
 
 # This was the firs code.
