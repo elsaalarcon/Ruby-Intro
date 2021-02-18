@@ -1,8 +1,8 @@
-number = 5
-
-if(number == 5)
-  puts "the number is five"
-else
-  puts "the number is NOT five"
+def number_is_five(number)
+  if(number == 5)
+    'the number is five'
+  else
+    'the number is NOT five'
+  end
 end
     
