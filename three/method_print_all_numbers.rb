@@ -1,5 +1,5 @@
 def print_numbers
-  1.upto(10) { |number| print number }
+  (1..10).each { |number| print number }
 end
 
 # Made an impruvement of the code.
