@@ -58,5 +58,6 @@ instead of the number and for the multiples of five print “Buzz”.
 For numbers which are multiples of both three and five print “FizzBuzz”
 =end
 
-# write a method that takes a string as a parameter. return the string in reverse using a for loop (not ruby's .reverse method). 
+# write a method that takes a string as a parameter.
+# return the string in reverse using a for loop (not ruby's .reverse method). 
 # Write assert_equal tests
