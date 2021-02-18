@@ -1,4 +1,4 @@
-def student_languages(students,languages)
+def student_languages(students, languages)
   if (students.length == languages.length)
   combined_hash = Hash[students.zip(languages)]
   combined_hash.first(2).to_h 
