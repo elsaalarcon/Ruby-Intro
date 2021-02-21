@@ -1,4 +1,4 @@
-require_relative '../two/data_structures.rb'
+require_relative '/../apps/two/data_structures.rb'
 
 describe 'data_structures' do
   it 'array cero will be cat' do

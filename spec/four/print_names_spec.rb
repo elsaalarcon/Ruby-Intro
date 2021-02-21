@@ -1,4 +1,4 @@
-require_relative '../four/print_names.rb'
+require_relative '/../apps/four/print_names.rb'
 
 describe 'print the names of all students who have the language ruby' do
   it "return {'mark' => 'ruby', 'mario' => 'ruby', 'geo' => 'ruby'}" do
