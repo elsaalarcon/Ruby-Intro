@@ -1,4 +1,4 @@
-require_relative '/../apps/one/function_with_return_type.rb'
+require_relative '../apps/one/function_with_return_type.rb'
 
 describe '#is_number_five?' do
   it 'Should return true' do

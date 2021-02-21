@@ -1,4 +1,4 @@
-require_relative '/../apps/one/the_number_is_five.rb'
+require_relative '../apps/one/the_number_is_five.rb'
 
 describe 'the number is five' do
   it 'Should return the number is five' do

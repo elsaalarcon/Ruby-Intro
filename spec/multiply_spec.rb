@@ -1,4 +1,4 @@
-require_relative '/../apps/one/multiply.rb'
+require_relative '../apps/one/multiply.rb'
 
 describe 'multiply' do
   it "multiply 5 * 5" do

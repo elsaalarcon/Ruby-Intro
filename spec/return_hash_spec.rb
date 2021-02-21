@@ -1,4 +1,4 @@
-require_relative '/../apps/four/return_hash.rb'
+require_relative '../apps/four/return_hash.rb'
 
 describe 'return hash' do
   it 'return {"mark" => "ruby", "aaron" => "javascript"}'  do
