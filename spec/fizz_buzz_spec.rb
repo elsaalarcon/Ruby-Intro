@@ -1,4 +1,4 @@
-require_relative './../apps/five/fizz_buzz.rb'
+require_relative '../apps/five/fizz_buzz.rb'
 
 describe "three print fizz, five print Buzz, three and five print FizzBuzz " do
   it "return fizz if number is divisible by 3" do

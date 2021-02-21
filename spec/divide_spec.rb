@@ -1,4 +1,4 @@
-require_relative '/../apps/one/divide.rb'
+require_relative '../apps/one/divide.rb'
 
 describe 'divide' do
   it "divide 5 / 5" do
