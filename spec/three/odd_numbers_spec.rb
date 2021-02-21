@@ -1,4 +1,4 @@
-require_relative '../three/odd_numbers.rb'
+require_relative '/../apps/three/odd_numbers.rb'
 
 describe 'odd numbers' do
   it 'prints all odd numbers from one to 10' do

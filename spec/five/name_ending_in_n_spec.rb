@@ -1,4 +1,4 @@
-require_relative '../five/name_ending_in_n.rb'
+require_relative '../apps/five/name_ending_in_n.rb'
 
 describe 'print the names ending in n' do
   it "return ['aaron', 'steven']" do

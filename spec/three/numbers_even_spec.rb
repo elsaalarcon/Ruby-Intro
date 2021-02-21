@@ -1,4 +1,4 @@
-require_relative '../three/numbers_even.rb'
+require_relative '/../apps/three/numbers_even.rb'
 
 describe 'numbers even' do
   it 'number % 2 == 0)' do
