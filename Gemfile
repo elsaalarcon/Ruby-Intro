@@ -9,3 +9,5 @@ gem "rspec"
 gem 'rspec-expectations'
 gem 'awesome_print'
 gem 'rubocop'
+gem 'httparty'
+gem 'pry'
